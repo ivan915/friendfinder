@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ivan915/friendfinder/issues"
   },
-  "homepage": "https://github.com/ivan915/friendfinder#readme"
+  "homepage": "https://github.com/ivan915/friendfinder#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
 }
