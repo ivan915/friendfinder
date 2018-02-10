@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+  <title>Friend Finder: Survey</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Friend Finder</h1>
+    <h4>Guiding you to humans that you can be friends with.</h4>
+  </header>
+  <section>
+    <div class="survey">
+      <form action="">
+        <legend>Survey</legend>
+        <p> Be true with your answers to help us make a good match</p>
+        <div>
+          <h2>Your name</h2>
+          <input name="name" id= "name" placeholder="Your name" type="text" required>
+          <h2>Photo (URL link)</h2>
+          <input name="photoUrl" id= "photoUrl" placeholder="http:// ..." type="url" required>
+        </div>
+        <div>
+          <h2>Q1: You are always in the mood for some spontaneous fun.</h2>
+          <select id="question1">
+            <option></option>
+            <option value="1">1 (Yes! YOLO!)</option>
+            <option value="2">2</option>
+            <option value="3">3 (Sometimes)</option>
+            <option value="4">4</option>
+            <option value="5">5 (No. I like to plan things out.)</option>
+          </select>
+          <h2>Q2: You love music festivals (ACL & SXSW).</h2>
+          <select id="question2">
+              <option></option>
+              <option value="1">1 (I am there every year getting my groove on!)</option>
+              <option value="2">2</option>
+              <option value="3">3 (only if the line ups are good)</option>
+              <option value="4">4</option>
+              <option value="5">5 (Hell no, I always go out of town for those days to avoid the traffic.)</option>
+            </select>
+            <h2>Q3: You rely on social media to meet humans.</h2>
+            <select id="question3">
+                <option></option>
+                <option value="1">1 (Yes, thats where everyone is at.)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Sometimes.)</option>
+                <option value="4">4</option>
+                <option value="5">5 (No, I like to meet people in person.)</option>
+              </select>
+            <h2>Q4: Its often difficult to speak to a stranger.</h2>
+            <select id="question4">
+              <option></option>
+              <option value="1">1 (Yes, Austin is full of weirdos!)</option>
+              <option value="2">2</option>
+              <option value="3">3 (Sometimes.)</option>
+              <option value="4">4</option>
+              <option value="5">5 (No, its always fun to speak to every human!)</option>
+            </select>
+            <h2>Q5: Netflix and Chill is always a great idea.</h2>
+            <select id="question5">
+              <option></option>
+              <option value="1">1 (Yes, especially on a rainy day.)</option>
+              <option value="2">2</option>
+              <option value="3">3 (Depends if there is anything good to watch.)</option>
+              <option value="4">4</option>
+              <option value="5">5 (Rather not, too risky.)</option>
+            </select>
+            <h2>Q6: You love being around people.</h2>
+            <select id="question6">
+              <option></option>
+              <option value="1">1 (I love being around crowds)</option>
+              <option value="2">2</option>
+              <option value="3">3 (Only of they dont smell)</option>
+              <option value="4">4</option>
+              <option value="5">5 (No, I love me some space (30 ft of personal space).)</option>
+            </select>
+            <h2>Q7: Politics have more drama than the Kardashians.</h2>
+            <select id="question7">
+              <option></option>
+              <option value="1">1 (Yes! They Definitely have more sex scandals.)</option>
+              <option value="2">2</option>
+              <option value="3">3 (I dont pay attention.)</option>
+              <option value="4">4</option>
+              <option value="5">5 (Whats a Kardashian.)</option>
+            </select>
+            <h2>Q8: You feel that Health is key to Happiness.</h2>
+            <select id="question8">
+              <option></option>
+              <option value="1">1 (YES! You look good you feel good.)</option>
+              <option value="2">2</option>
+              <option value="3">3 (Umm)</option>
+              <option value="4">4</option>
+              <option value="5">5 (No, a double cheeseburger is happiness.)</option>
+            </select>
+            <h2>Q9: Playing HQ Trevia sharpens the mind.</h2>
+            <select id="question9">
+              <option></option>
+              <option value="1">1 (Yes, I feel like Einstein after every game.)</option>
+              <option value="2">2</option>
+              <option value="3">3 (Depends)</option>
+              <option value="4">4</option>
+              <option value="5">5 (No, I can't get past questoion 3.)</option>
+            </select>
+            <h2>Q10: Do you believe in Cryptocurrency".</h2>
+            <select id="question10">
+              <option></option>
+              <option value="1">1 (Yes. I have bitcoin, litecoin, and ripple.)</option>
+              <option value="2">2</option>
+              <option value="3">3 (Wait what?)</option>
+              <option value="4">4</option>
+              <option value="5">5 (Hell Nah, I only carry cash.)</option>
+            </select>
+        </div>
+        <div>
+          <button type="submit" id="submitBtn">Find my human</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
