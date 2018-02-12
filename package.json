@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ivan915/friendfinder#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mysql": "^2.15.0"
   }
